@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: retirement-service
+    #configuración del config-server
+  cloud:
+    config:
+      uri: http://localhost:8090
+      #username: crover
+      #password: cr0v3r
